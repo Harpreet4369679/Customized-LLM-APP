@@ -14,7 +14,7 @@ class MyApp:
         self.documents = []
         self.embeddings = None
         self.index = None
-        self.load_pdf("THEDIA1.pdf")
+        self.load_pdf("DialecticalBehaviorTherapy")
         self.build_vector_db()
 
     def load_pdf(self, file_path: str) -> None:
@@ -100,7 +100,7 @@ with demo:
             ["I feel restless. Please help me."],
             ["I have destructive thoughts coming to my mind repetatively."]
         ],
-        title='Dialectical Behaviour Therapy Assistant👩‍⚕️🧘‍♀️'
+        title='A New Harbinger Self-Helf Workbook Assistantt👩‍⚕️🧘‍♀️'
     )
 
 if __name__ == "__main__":
